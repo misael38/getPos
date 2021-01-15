@@ -1,0 +1,9 @@
+name: GetPos
+version: 1.0.1
+main: GetPos\Main
+api: [3.0.0]
+author: Misael38
+
+commands:
+  getpos:
+    description: "Open The GetPos Menu!"
