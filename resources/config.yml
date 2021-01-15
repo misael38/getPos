@@ -1,0 +1,34 @@
+---
+#MORE ABOUT ME:
+#github: https://github.com/misael38
+#youtube: https://www.youtube.com/channel/UCTykAeLAm54REyIgK_7pd5Q
+#Instagram: https://instagram.com/misaelimanuell?igshid=9vcjegn0npgg
+Discord: Misaelx_#8452
+#
+#Tags Information: 
+#{myName} = get your name
+#{myWorld} = get the world name at your position
+#{myX} = get your 'X' coordinate
+#{myY} = get your 'Y' coordinate
+#{myZ} = get your 'Z' coordinate
+#{target} = get the target's name
+#{targetWorld} = get the target world name
+#{targetX} = get the "X" coordinate of the target
+#{targetY} = get the "Y" coordinate of the target
+#{targetZ} = get the "Z" coordinate of the target
+#{player} = names of players that you shared your coordinate
+
+self.coord.msg: "§f========§7GetPos Command§f======== \n§eX: §b{myX} \n§eY: §b{myY} \n§eZ: §b{myZ} \n§eWorld Name: §b{myWorld} \n§f========§7GetPos Command§f========" #Message of your coordinate
+
+other.coord.msg: "§f========§7GetPos Command§f======== \n§5Player Name: §c{target} \n§eX: §b{targetX} \n§eY: §b{targetY} \n§eZ: §b{targetZ} \n§eWorld Name: §b{targetWorld} \n§f========§7GetPos Command§f========" #Message other player's coodinate 
+
+sharemy.coord.msg: "§f========§7ShareCoord Command§f======== \n§5{myName} §6Coordinate \n§eX: §b{myX} \n§eY: §b{myY} \n§eZ: §b{myZ} \n§eWorld Name: §b{myWorld} \n§f========§7ShareCoord Command§f========" #Message when you share your coordinate to other player
+success.shared.msg: "successfully share the coordinate to {player}" #Message when successfully share your coordinate to other player
+
+exit.msg.enable: true #enable or disable the message when exited the menu (option: true | false) default true
+exit.msg: "§cExited The GetPosUI Menu!" #Message when exited the menu (if set to true)
+
+player.notfound.msg: "§cPlayer Not Found!" #Message when the target not found
+
+noperm.msg: "§cYou do not have permission to use this command!" #Message when the player don't have a permission
+...
