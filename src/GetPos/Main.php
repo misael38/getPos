@@ -61,7 +61,6 @@ class Main extends PluginBase implements Listener {
                         } else {
                             $sender->sendMessage($this->getConfig()->get("noperm.msg"));
                         }
-                    return true;
                         break;
                         
                     case 2:
